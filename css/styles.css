@@ -1,0 +1,37 @@
+.node {
+  fill: black;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.node:hover {
+  font-weight: 800;
+  fill: #0072B2;
+}
+.link {
+  stroke: black;
+  stroke-opacity: 0.1;
+  fill: none;
+  pointer-events: none;
+}
+path.arc {
+  cursor: move;
+  fill: #fff;
+}
+.link.source {
+  stroke-opacity: 1 !important;
+  stroke-width: 2px;
+  stroke: #D55E00;
+}
+.node.target {
+  fill: #D55E00;
+  font-weight: 800;
+}
+.node.source  {
+  fill: #D55E00; /*#2ca02c;*/
+  font-weight: 800;
+}
+.link.target {
+  stroke-opacity: 1 !important;
+  stroke-width: 2px;
+  stroke: #D55E00; /*#2ca02c;*/
+}
+
